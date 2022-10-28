@@ -1,7 +1,11 @@
+import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import App from './App.jsx'
+
 ReactDOM.render(
-  <h1>Olá React!</h1>,
+  <App></App>,
   document.getElementById('root')
 )
+
